@@ -1,0 +1,218 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*                                                                       *)
+(*  This file was created under the Wolfram Enterprise licensing terms.  *)
+(*                                                                       *)
+(*       For additional information concerning CDF licensing see:        *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*                                                                       *)
+(*                                                                       *)
+(*************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1060,         20]
+NotebookDataLength[      7034,        197]
+NotebookOptionsPosition[      7243,        188]
+NotebookOutlinePosition[      7730,        206]
+CellTagsIndexPosition[      7687,        203]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Takagi\:51fd\:6570", "Title",
+ CellChangeTimes->{{3.945927539909033*^9, 
+  3.945927541150652*^9}},ExpressionUUID->"f80cf6e3-0c4d-4c4d-89fb-\
+2e5ca954c4c4"],
+
+Cell[CellGroupData[{
+
+Cell["Notations", "Section",
+ CellChangeTimes->{{3.9459278072827797`*^9, 
+  3.9459278110568485`*^9}},ExpressionUUID->"24766c3b-17e3-db44-b5c6-\
+55dfdb304cc5"],
+
+Cell[TextData[{
+ "Binary expansion of ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       StyleBox["x", "TI"], TraditionalForm], "errors" -> {}, "input" -> "x", 
+     "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "c1e0393f-c330-204b-bcc4-5f449644a302"],
+ "  :  ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         StyleBox["x", "TI"], "\[LongEqual]", "0.", 
+         SubscriptBox["\[Epsilon]", "1"], 
+         SubscriptBox["\[Epsilon]", "2"], 
+         SubscriptBox["\[CenterEllipsis]\[Epsilon]", 
+          StyleBox["n", "TI"]], "\[CenterEllipsis]", "\[LongEqual]", 
+         UnderoverscriptBox["\[Sum]", 
+          RowBox[{
+            StyleBox["n", "TI"], "\[LongEqual]", "1"}], "\[Infinity]", 
+          LimitsPositioning -> True], 
+         FractionBox[
+          SubscriptBox["\[Epsilon]", 
+           StyleBox["n", "TI"]], 
+          SuperscriptBox["2", 
+           StyleBox["n", "TI"]]], ",", 
+         SubscriptBox["\[Epsilon]", 
+          StyleBox["n", "TI"]], "\[Element]", 
+         RowBox[{"{", 
+           RowBox[{"0", ",", "1"}], "}"}]}], TraditionalForm], "errors" -> {},
+      "input" -> 
+     "x=0.\\epsilon_1\\epsilon_2\\cdots\\epsilon_n\\cdots=\\sum_{n=1}^{\\\
+infty}\\frac{\\epsilon_n}{2^n},\\epsilon_n\\in\\{0,1\\}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "c4bfdc11-a339-9742-a4af-ed5c5a908fea"],
+ "\:ff1b0\:ff0c1\:7684\:6570\:91cf\:ff1a",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["I", "TI"], 
+          StyleBox["n", "TI"]], "\[LongEqual]", 
+         UnderoverscriptBox["\[Sum]", 
+          RowBox[{
+            StyleBox["k", "TI"], "\[LongEqual]", "1"}], 
+          StyleBox["n", "TI"], LimitsPositioning -> True], 
+         SubscriptBox["\[Epsilon]", 
+          StyleBox["n", "TI"]]}], TraditionalForm], "errors" -> {}, "input" -> 
+     "I_n=\\sum_{k=1}^n\\epsilon_n", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "464899c2-ece6-5f42-972f-0dbb02ad51ae"],
+ "\:ff0c",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["O", "TI"], 
+          StyleBox["n", "TI"]], "\[LongEqual]", 
+         StyleBox["n", "TI"], "-", 
+         SubscriptBox[
+          StyleBox["I", "TI"], 
+          StyleBox["n", "TI"]]}], TraditionalForm], "errors" -> {}, "input" -> 
+     "O_n=n-I_n", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "e3076ba2-3361-264b-bd4e-925b1d35381d"],
+ "\n0\:ff0c1\:7684\:7a20\:5bc6\:5ea6\:ff1a",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["d", "TI"], "1"], 
+         RowBox[{"(", 
+           StyleBox["x", "TI"], ")"}], "\[LongEqual]", 
+         UnderscriptBox["lim", 
+          RowBox[{
+            StyleBox["n", "TI"], "\[Rule]", "\[Infinity]"}], 
+          LimitsPositioning -> True], 
+         FractionBox["1", 
+          StyleBox["n", "TI"]], 
+         UnderoverscriptBox["\[Sum]", 
+          RowBox[{
+            StyleBox["k", "TI"], "\[LongEqual]", "1"}], 
+          StyleBox["n", "TI"], LimitsPositioning -> True], 
+         SubscriptBox["\[Epsilon]", 
+          StyleBox["k", "TI"]]}], TraditionalForm], "errors" -> {}, "input" -> 
+     "d_1(x)=\\lim_{n\\rightarrow\\infty}\\frac{1}{n}\\sum_{k=1}^n\\epsilon_\
+k", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "7cb6b2e5-c0b1-d745-9eae-a891a6dce865"],
+ "\:ff0c",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["d", "TI"], "0"], 
+         RowBox[{"(", 
+           StyleBox["x", "TI"], ")"}], "\[LongEqual]", "1", "-", 
+         SubscriptBox[
+          StyleBox["d", "TI"], "1"], 
+         RowBox[{"(", 
+           StyleBox["x", "TI"], ")"}]}], TraditionalForm], "errors" -> {}, 
+     "input" -> "d_0(x)=1-d_1(x)", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "1c58b6dc-9639-324b-9058-95c5cd9b053c"],
+ "\:ff1b\:6b63\:4ea4\:6295\:5f71\:ff1a",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       SubscriptBox["\[Pi]", 
+        StyleBox["X", "TI"]], TraditionalForm], "errors" -> {}, "input" -> 
+     "\\pi_X", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "22895fdd-dc01-c746-b09a-d181cb64132d"],
+ "\:ff0c",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       SubscriptBox["\[Pi]", 
+        StyleBox["Y", "TI"]], TraditionalForm], "errors" -> {}, "input" -> 
+     "\\pi_Y", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "2cb2800d-b635-4244-ad0a-24532a2d0a59"],
+ "\n"
+}], "Text",
+ CellChangeTimes->{{3.9459278229043007`*^9, 3.945927857111845*^9}, {
+  3.9459278953281193`*^9, 3.945927926665699*^9}, {3.9459279980596313`*^9, 
+  3.945928002573477*^9}, {3.945928046600111*^9, 3.9459280710097065`*^9}, {
+  3.945928103233389*^9, 3.9459281169758434`*^9}, {3.9459281640749817`*^9, 
+  3.9459283391738987`*^9}, {3.9459283712280617`*^9, 3.9459285667509785`*^9}, {
+  3.945928880195114*^9, 
+  3.9459290099353695`*^9}},ExpressionUUID->"0cfa5ddc-d914-034a-af4e-\
+b17a1e48dca8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1440, 741.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (2024\:5e747\:670816\
+\:65e5)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"30298632-38b5-2e4f-b8a0-d60867808903"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[1482, 35, 161, 3, 95, "Title",ExpressionUUID->"f80cf6e3-0c4d-4c4d-89fb-2e5ca954c4c4"],
+Cell[CellGroupData[{
+Cell[1668, 42, 158, 3, 68, "Section",ExpressionUUID->"24766c3b-17e3-db44-b5c6-55dfdb304cc5"],
+Cell[1829, 47, 5386, 137, 123, "Text",ExpressionUUID->"0cfa5ddc-d914-034a-af4e-b17a1e48dca8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

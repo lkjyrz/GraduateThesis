@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1060,         20]
-NotebookDataLength[      7034,        197]
-NotebookOptionsPosition[      7243,        188]
-NotebookOutlinePosition[      7730,        206]
-CellTagsIndexPosition[      7687,        203]
+NotebookDataLength[     14872,        433]
+NotebookOptionsPosition[     13633,        399]
+NotebookOutlinePosition[     14384,        423]
+CellTagsIndexPosition[     14341,        420]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -41,158 +41,375 @@ Cell["Takagi\:51fd\:6570", "Title",
 Cell[CellGroupData[{
 
 Cell["Notations", "Section",
- CellChangeTimes->{{3.9459278072827797`*^9, 
-  3.9459278110568485`*^9}},ExpressionUUID->"24766c3b-17e3-db44-b5c6-\
+ CellChangeTimes->{{3.9459278072827797`*^9, 3.9459278110568485`*^9}, {
+  3.945934847920103*^9, 
+  3.945934860092182*^9}},ExpressionUUID->"24766c3b-17e3-db44-b5c6-\
 55dfdb304cc5"],
 
 Cell[TextData[{
- "Binary expansion of ",
+ "Binary expansion of x :  ",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       StyleBox["x", "TI"], TraditionalForm], "errors" -> {}, "input" -> "x", 
-     "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "c1e0393f-c330-204b-bcc4-5f449644a302"],
- "  :  ",
+   RowBox[{"x", " ", "=", " ", 
+    RowBox[{
+     RowBox[{"0.", 
+      SubscriptBox["\[CurlyEpsilon]", "1"], 
+      SubscriptBox["\[CurlyEpsilon]", "2"], 
+      SubscriptBox["\[CurlyEpsilon]", "3"], 
+      SubscriptBox["\[Ellipsis]\[CurlyEpsilon]", "n"], "\[Ellipsis]"}], "=", 
+     RowBox[{
+      UnderoverscriptBox["\[Sum]", 
+       RowBox[{"n", "=", "1"}], "\[Infinity]"], 
+      FractionBox[
+       SubscriptBox["\[CurlyEpsilon]", "n"], 
+       SuperscriptBox["2", "n"]]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0b206d2c-6f8e-1541-9b69-3c7f8846fa92"],
+ ", ",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       RowBox[{
-         StyleBox["x", "TI"], "\[LongEqual]", "0.", 
-         SubscriptBox["\[Epsilon]", "1"], 
-         SubscriptBox["\[Epsilon]", "2"], 
-         SubscriptBox["\[CenterEllipsis]\[Epsilon]", 
-          StyleBox["n", "TI"]], "\[CenterEllipsis]", "\[LongEqual]", 
-         UnderoverscriptBox["\[Sum]", 
-          RowBox[{
-            StyleBox["n", "TI"], "\[LongEqual]", "1"}], "\[Infinity]", 
-          LimitsPositioning -> True], 
-         FractionBox[
-          SubscriptBox["\[Epsilon]", 
-           StyleBox["n", "TI"]], 
-          SuperscriptBox["2", 
-           StyleBox["n", "TI"]]], ",", 
-         SubscriptBox["\[Epsilon]", 
-          StyleBox["n", "TI"]], "\[Element]", 
-         RowBox[{"{", 
-           RowBox[{"0", ",", "1"}], "}"}]}], TraditionalForm], "errors" -> {},
-      "input" -> 
-     "x=0.\\epsilon_1\\epsilon_2\\cdots\\epsilon_n\\cdots=\\sum_{n=1}^{\\\
-infty}\\frac{\\epsilon_n}{2^n},\\epsilon_n\\in\\{0,1\\}", "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "c4bfdc11-a339-9742-a4af-ed5c5a908fea"],
- "\:ff1b0\:ff0c1\:7684\:6570\:91cf\:ff1a",
+   RowBox[{
+    SubscriptBox["\[CurlyEpsilon]", "n"], "\[Element]", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "1"}], "}"}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "0b798866-cff5-e940-9cd1-c0ffc12e636c"],
+ "\n0,1 \:7684\:6570\:91cf: ",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       RowBox[{
-         SubscriptBox[
-          StyleBox["I", "TI"], 
-          StyleBox["n", "TI"]], "\[LongEqual]", 
-         UnderoverscriptBox["\[Sum]", 
-          RowBox[{
-            StyleBox["k", "TI"], "\[LongEqual]", "1"}], 
-          StyleBox["n", "TI"], LimitsPositioning -> True], 
-         SubscriptBox["\[Epsilon]", 
-          StyleBox["n", "TI"]]}], TraditionalForm], "errors" -> {}, "input" -> 
-     "I_n=\\sum_{k=1}^n\\epsilon_n", "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "464899c2-ece6-5f42-972f-0dbb02ad51ae"],
+   RowBox[{
+    SubscriptBox["I", "n"], "=", 
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"k", "=", "1"}], "n"], 
+     SubscriptBox["\[CurlyEpsilon]", "k"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "ad245427-6451-d94a-95eb-0854d48abdac"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["O", "n"], "=", 
+    RowBox[{"n", "-", 
+     SubscriptBox["I", "n"]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "e709cd48-2f82-224a-9467-9c394aa513ed"],
+ "\n0\:ff0c1\:7684\:7a20\:5bc6\:5ea6: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SubscriptBox["d", "1"], "(", "x", ")"}], "=", 
+    RowBox[{
+     UnderscriptBox["\[Limit]", 
+      RowBox[{"n", "\[Rule]", "\[Infinity]"}]], 
+     RowBox[{
+      FractionBox["1", "n"], 
+      RowBox[{
+       UnderoverscriptBox["\[Sum]", 
+        RowBox[{"k", "=", "1"}], "n"], 
+       SubscriptBox["\[CurlyEpsilon]", "k"]}]}]}]}], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "d84bbcba-b184-9745-8fed-f24388c2b206"],
  "\:ff0c",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       RowBox[{
-         SubscriptBox[
-          StyleBox["O", "TI"], 
-          StyleBox["n", "TI"]], "\[LongEqual]", 
-         StyleBox["n", "TI"], "-", 
-         SubscriptBox[
-          StyleBox["I", "TI"], 
-          StyleBox["n", "TI"]]}], TraditionalForm], "errors" -> {}, "input" -> 
-     "O_n=n-I_n", "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "e3076ba2-3361-264b-bd4e-925b1d35381d"],
- "\n0\:ff0c1\:7684\:7a20\:5bc6\:5ea6\:ff1a",
+   RowBox[{
+    RowBox[{
+     SubscriptBox["d", "0"], "(", "x", ")"}], "=", 
+    RowBox[{"1", "-", 
+     RowBox[{
+      SubscriptBox["d", "1"], "(", "x", ")"}]}]}], TraditionalForm]],
+  ExpressionUUID->"1a396a78-c0b6-5546-9830-0c3ccfc73cbd"],
+ " \n\:6b63\:4ea4\:6295\:5f71: ",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       RowBox[{
-         SubscriptBox[
-          StyleBox["d", "TI"], "1"], 
-         RowBox[{"(", 
-           StyleBox["x", "TI"], ")"}], "\[LongEqual]", 
-         UnderscriptBox["lim", 
-          RowBox[{
-            StyleBox["n", "TI"], "\[Rule]", "\[Infinity]"}], 
-          LimitsPositioning -> True], 
-         FractionBox["1", 
-          StyleBox["n", "TI"]], 
-         UnderoverscriptBox["\[Sum]", 
-          RowBox[{
-            StyleBox["k", "TI"], "\[LongEqual]", "1"}], 
-          StyleBox["n", "TI"], LimitsPositioning -> True], 
-         SubscriptBox["\[Epsilon]", 
-          StyleBox["k", "TI"]]}], TraditionalForm], "errors" -> {}, "input" -> 
-     "d_1(x)=\\lim_{n\\rightarrow\\infty}\\frac{1}{n}\\sum_{k=1}^n\\epsilon_\
-k", "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "7cb6b2e5-c0b1-d745-9eae-a891a6dce865"],
- "\:ff0c",
+   SubscriptBox["\[Pi]", "X"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "74d7e3f6-548b-9345-8d0d-4d39bddfaeec"],
+ ", ",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       RowBox[{
-         SubscriptBox[
-          StyleBox["d", "TI"], "0"], 
-         RowBox[{"(", 
-           StyleBox["x", "TI"], ")"}], "\[LongEqual]", "1", "-", 
-         SubscriptBox[
-          StyleBox["d", "TI"], "1"], 
-         RowBox[{"(", 
-           StyleBox["x", "TI"], ")"}]}], TraditionalForm], "errors" -> {}, 
-     "input" -> "d_0(x)=1-d_1(x)", "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "1c58b6dc-9639-324b-9058-95c5cd9b053c"],
- "\:ff1b\:6b63\:4ea4\:6295\:5f71\:ff1a",
+   SubscriptBox["\[Pi]", "Y"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "7649716a-407a-5441-924a-801d15b05a42"],
+ "\n\[Alpha]-\:7ef4Hausdorff\:6d4b\:5ea6\:ff1a",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       SubscriptBox["\[Pi]", 
-        StyleBox["X", "TI"]], TraditionalForm], "errors" -> {}, "input" -> 
-     "\\pi_X", "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "22895fdd-dc01-c746-b09a-d181cb64132d"],
- "\:ff0c",
+   SuperscriptBox["\[ScriptCapitalH]", "\[Alpha]"], TraditionalForm]],
+  ExpressionUUID->"82a037c5-9e1a-0d4b-b7e0-4d7514a04c1b"],
+ "\nA\:7684Hausdorff\:7ef4\:6570\:ff1a",
  Cell[BoxData[
   FormBox[
-   TemplateBox[<|"boxes" -> FormBox[
-       SubscriptBox["\[Pi]", 
-        StyleBox["Y", "TI"]], TraditionalForm], "errors" -> {}, "input" -> 
-     "\\pi_Y", "state" -> "Boxes"|>,
-    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
-  "2cb2800d-b635-4244-ad0a-24532a2d0a59"],
- "\n"
+   SubscriptBox["dim", "H"], TraditionalForm]],ExpressionUUID->
+  "330b03cc-463e-cc40-a5cd-7effd5e59798"],
+ "A\n\[ScriptF]\:56fe\:50cf\:7684Hausdorff\:7ef4\:6570\:ff1a",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["dim", "H"], "(", "f", ")"}], TraditionalForm]],
+  ExpressionUUID->"4c2db4f7-bcb7-0243-9361-561d95422586"]
 }], "Text",
  CellChangeTimes->{{3.9459278229043007`*^9, 3.945927857111845*^9}, {
   3.9459278953281193`*^9, 3.945927926665699*^9}, {3.9459279980596313`*^9, 
   3.945928002573477*^9}, {3.945928046600111*^9, 3.9459280710097065`*^9}, {
   3.945928103233389*^9, 3.9459281169758434`*^9}, {3.9459281640749817`*^9, 
   3.9459283391738987`*^9}, {3.9459283712280617`*^9, 3.9459285667509785`*^9}, {
-  3.945928880195114*^9, 
-  3.9459290099353695`*^9}},ExpressionUUID->"0cfa5ddc-d914-034a-af4e-\
+  3.945928880195114*^9, 3.9459290099353695`*^9}, {3.9459345617670574`*^9, 
+  3.9459345788367214`*^9}, {3.945934696209402*^9, 3.945934839322426*^9}, {
+  3.945978730475979*^9, 3.9459789145902615`*^9}, {3.945978985720236*^9, 
+  3.945979315175783*^9}},ExpressionUUID->"0cfa5ddc-d914-034a-af4e-\
 b17a1e48dca8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Analytic properties", "Section",
+ CellChangeTimes->{{3.945934894764057*^9, 3.945934902589279*^9}, 
+   3.9459739737731*^9, 
+   3.945975180425722*^9},ExpressionUUID->"dc590bc2-91d1-504a-b754-\
+31d05f3adc79"],
+
+Cell[CellGroupData[{
+
+Cell["Derivatives", "Subsection",
+ CellChangeTimes->{{3.9459349150893993`*^9, 
+  3.9459349238969593`*^9}},ExpressionUUID->"fe04d0d3-81fe-ca41-8789-\
+8141e05714b0"],
+
+Cell[BoxData[
+ RowBox[{"Theorem", " ", 
+  RowBox[{
+   RowBox[{"(", "Takagi", ")"}], ".", "The"}], " ", "Takagi", " ", "function",
+   " ", "T", " ", "does", " ", "not", " ", "possess", " ", "a", " ", "finite",
+   " ", "derivative", " ", "at", " ", "any", " ", 
+  RowBox[{"point", "."}]}]], "Theorem",
+ CellChangeTimes->{{3.945935035674616*^9, 3.945935044301098*^9}, {
+  3.945936079459553*^9, 3.945936092844002*^9}, {3.9459361379184055`*^9, 
+  3.945936179379099*^9}, {3.9459734490978184`*^9, 3.945973457321287*^9}, {
+  3.9459804963076344`*^9, 
+  3.94598050425655*^9}},ExpressionUUID->"c9c17837-f313-b24b-ac35-\
+094024945f2c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Proof", "(", "Billingsley", ")"}], ":", "\[IndentingNewLine]", 
+    RowBox[{"Put", 
+     RowBox[{
+      FormBox[
+       SubscriptBox["\[Phi]", "k"],
+       TraditionalForm], "(", "x", ")"}]}]}], "=", 
+   RowBox[{
+    RowBox[{
+     FormBox[
+      SuperscriptBox["2", 
+       RowBox[{"-", "k"}]],
+      TraditionalForm], "\[Phi]", 
+     RowBox[{"(", 
+      RowBox[{
+       FormBox[
+        SuperscriptBox["2", "k"],
+        TraditionalForm], "x"}], ")"}], "k"}], "=", "0"}]}], ",", "1", ",", 
+  RowBox[{"\[Ellipsis]", "Fix", "a", "point", "x"}], ",", 
+  RowBox[{
+   RowBox[{"for", "each", "n"}], "\[Element]", "\[DoubleStruckCapitalN]"}], 
+  ",", 
+  RowBox[{
+   RowBox[{"let", 
+    FormBox[
+     SubscriptBox["u", "n"],
+     TraditionalForm], "and", 
+    FormBox[
+     SubscriptBox["v", "n"],
+     TraditionalForm], "be", "the", "dyadic", "rationals", "of", "order", "n",
+     "with", 
+    FormBox[
+     RowBox[{
+      RowBox[{
+       SubscriptBox["v", "n"], "-", 
+       SubscriptBox["u", "n"]}], "=", 
+      SuperscriptBox["2", 
+       RowBox[{"-", "n"}]]}],
+     TraditionalForm], "and", 
+    FormBox[
+     SubscriptBox["u", "n"],
+     TraditionalForm]}], "\[LessEqual]", "x", "<", 
+   RowBox[{
+    FormBox[
+     SubscriptBox["v", "n"],
+     TraditionalForm], ".", "\[IndentingNewLine]", "Then"}]}], ",", 
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      RowBox[{"T", "(", 
+       SubscriptBox["v", "n"], ")"}], "-", 
+      RowBox[{"T", "(", 
+       SubscriptBox["u", "n"], ")"}]}], 
+     RowBox[{
+      SubscriptBox["v", "n"], "-", 
+      SubscriptBox["u", "n"]}]], "=", 
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"k", "=", "0"}], 
+      RowBox[{"n", "-", "1"}]], 
+     FractionBox[
+      RowBox[{
+       RowBox[{
+        SubscriptBox["\[Phi]", "k"], "(", 
+        SubscriptBox["v", "n"], ")"}], "-", 
+       RowBox[{
+        SubscriptBox["\[Phi]", "k"], "(", 
+        SubscriptBox["u", "n"], ")"}]}], 
+      RowBox[{
+       SubscriptBox["v", "n"], "-", 
+       SubscriptBox["u", "n"]}]]}]}],
+   TraditionalForm], ",", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    SubscriptBox["since\[Phi]", "k"], 
+    RowBox[{"(", 
+     SubscriptBox["u", "n"], ")"}]}], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[Phi]", "k"], 
+     RowBox[{"(", 
+      SubscriptBox["v", "n"], ")"}]}], "=", 
+    RowBox[{
+     RowBox[{"0", "for", "all", "k"}], ">=", 
+     RowBox[{
+      RowBox[{"n", ".", "But"}], "for", "k"}], "<", "n"}]}]}], ",", 
+  RowBox[{
+   SubscriptBox["\[Phi]", "k"], "is", "linear", 
+   RowBox[{"on", "[", 
+    RowBox[{
+     SubscriptBox["u", "n"], ",", 
+     SubscriptBox["v", "n"]}], "]"}], "with", "slope", 
+   SuperscriptBox[
+    SubscriptBox["\[Phi]", "k"], "+"], 
+   RowBox[{"(", "x", ")"}]}], ",", 
+  RowBox[{
+   RowBox[{"the", "right"}], "-", 
+   RowBox[{"hand", " ", "derivative", " ", "of", " ", 
+    SubscriptBox["\[Phi]", "k"], " ", "at", " ", 
+    RowBox[{"x", ".", "\[IndentingNewLine]", "Thus"}]}]}], ",", " ", 
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{"T", 
+      RowBox[{"(", 
+       SubscriptBox["v", "n"], ")"}]}], "-", 
+     RowBox[{"T", 
+      RowBox[{"(", 
+       SubscriptBox["u", "n"], ")"}]}]}], 
+    RowBox[{
+     SubscriptBox["v", "n"], "-", 
+     SubscriptBox["u", "n"]}]], "=", 
+   RowBox[{
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"k", "=", "0"}], 
+      RowBox[{"n", "-", "1"}]], 
+     RowBox[{
+      SuperscriptBox[
+       SubscriptBox["\[Phi]", "k"], "+"], 
+      RowBox[{
+       RowBox[{"(", "x", ")"}], ".", "\[IndentingNewLine]", "Since"}], " ", 
+      SuperscriptBox[
+       SubscriptBox["\[Phi]", "k"], "+"], 
+      RowBox[{"(", "x", ")"}]}]}], "=", 
+    RowBox[{
+     RowBox[{"\[PlusMinus]", "1"}], " ", "for", " ", "each", " ", "k"}]}]}], 
+  ",", " ", 
+  RowBox[{
+  "this", " ", "last", " ", "sum", " ", "cannot", " ", "converge", " ", "to", 
+   " ", "a", " ", "finite", " ", 
+   RowBox[{"limit", ".", "\[IndentingNewLine]", "Hence"}]}], ",", " ", 
+  RowBox[{
+  "T", " ", "does", " ", "not", " ", "have", " ", "a", " ", "finite", " ", 
+   "derivative", " ", "of", " ", 
+   SubscriptBox["\[Phi]", "k"], " ", "at", " ", 
+   RowBox[{"x", "."}]}]}]], "Proof text",
+ CellChangeTimes->{
+  3.783708729377879*^9, {3.9459735318170395`*^9, 3.9459735852614784`*^9}, {
+   3.9459737087742424`*^9, 3.945973768249407*^9}, {3.945977761008869*^9, 
+   3.9459778106330338`*^9}, {3.9459780480741577`*^9, 
+   3.9459780566501503`*^9}, {3.945978088969469*^9, 3.9459783116861515`*^9}, {
+   3.945978342590912*^9, 3.945978480108927*^9}, {3.94597852000231*^9, 
+   3.945978699969284*^9}, {3.9459793388691177`*^9, 3.9459793465293465`*^9}, {
+   3.945980040655737*^9, 3.945980053156828*^9}, {3.9459801060283394`*^9, 
+   3.9459801206862144`*^9}, {3.9459803407978153`*^9, 
+   3.9459803943179073`*^9}, {3.9460008398388786`*^9, 
+   3.9460009143138123`*^9}, {3.9460009515166416`*^9, 3.946000998266762*^9}, {
+   3.9460010641380177`*^9, 3.9460013252290764`*^9}, {3.946003650782675*^9, 
+   3.946003825210327*^9}, {3.946015812902727*^9, 
+   3.946015826369175*^9}},ExpressionUUID->"57e0736e-f38e-5943-a57b-\
+c09756ff43be"],
+
+Cell["", "Text",
+ CellChangeTimes->{
+  3.77804649934914*^9, {3.778046538917068*^9, 3.7780465420692883`*^9}, {
+   3.946014642287237*^9, 
+   3.9460146449810295`*^9}},ExpressionUUID->"9aa270a4-2599-5540-983e-\
+20a172189920"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Continuity properties", "Subsection",
+ CellChangeTimes->{{3.945934936306185*^9, 3.945934971852686*^9}, {
+  3.9459794448589783`*^9, 
+  3.945979444861471*^9}},ExpressionUUID->"11fb56ae-87af-ff4b-9293-\
+ec85df5130c4"],
+
+Cell["", "Text",ExpressionUUID->"d48cd34c-4e5c-a346-a46b-661344613bf4"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Graphical properties", "Section",
+ CellChangeTimes->{{3.945934996266964*^9, 
+  3.945935002824644*^9}},ExpressionUUID->"3b6e4162-19eb-6a42-bea7-\
+6041e2667c6e"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.9459793506223145`*^9, 3.945979360224785*^9}, {
+  3.94598006752903*^9, 
+  3.945980069086178*^9}},ExpressionUUID->"dafbe257-0200-ef4f-bb4d-\
+54bbe43b21f3"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.77804649934914*^9, {3.778046538917068*^9, 3.7780465420692883`*^9}, 
+   3.945980056757248*^9},ExpressionUUID->"d90a9320-1a5e-d044-9efc-\
+7631067104d2"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.77804649934914*^9, {3.778046538917068*^9, 3.7780465420692883`*^9}, {
+   3.9459798730767975`*^9, 3.945979897966772*^9}, {3.9459800249676037`*^9, 
+   3.9459800385556297`*^9}, {3.945980071079668*^9, 
+   3.945980101815777*^9}},ExpressionUUID->"db2d6839-0f7e-5b42-9d17-\
+d2dc3254d946"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1440, 741.75},
-WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+WindowSize->{622.5, 735},
+WindowMargins->{{Automatic, -5.25}, {Automatic, 0}},
+Magnification:>1. Inherited,
 FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (2024\:5e747\:670816\
 \:65e5)",
-StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
-  CharacterEncoding -> "UTF-8"],
-ExpressionUUID->"30298632-38b5-2e4f-b8a0-d60867808903"
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> FrontEnd`FileName[{
+        ParentDirectory[]}, "MathStyle.nb", CharacterEncoding -> "UTF-8"]]]}, 
+  Visible -> False, FrontEndVersion -> 
+  "14.1 for Microsoft Windows (64-bit) (2024\:5e747\:670816\:65e5)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"9e34e0bc-a81a-e442-8e11-a81999c6488f"
 ]
 (* End of Notebook Content *)
 
@@ -208,8 +425,27 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[1482, 35, 161, 3, 95, "Title",ExpressionUUID->"f80cf6e3-0c4d-4c4d-89fb-2e5ca954c4c4"],
 Cell[CellGroupData[{
-Cell[1668, 42, 158, 3, 68, "Section",ExpressionUUID->"24766c3b-17e3-db44-b5c6-55dfdb304cc5"],
-Cell[1829, 47, 5386, 137, 123, "Text",ExpressionUUID->"0cfa5ddc-d914-034a-af4e-b17a1e48dca8"]
+Cell[1668, 42, 207, 4, 67, "Section",ExpressionUUID->"24766c3b-17e3-db44-b5c6-55dfdb304cc5"],
+Cell[1878, 48, 4004, 113, 172, "Text",ExpressionUUID->"0cfa5ddc-d914-034a-af4e-b17a1e48dca8"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5919, 166, 211, 4, 53, "Section",ExpressionUUID->"dc590bc2-91d1-504a-b754-31d05f3adc79"],
+Cell[CellGroupData[{
+Cell[6155, 174, 163, 3, 55, "Subsection",ExpressionUUID->"fe04d0d3-81fe-ca41-8789-8141e05714b0"],
+Cell[6321, 179, 623, 12, 72, "Theorem",ExpressionUUID->"c9c17837-f313-b24b-ac35-094024945f2c"],
+Cell[6947, 193, 5156, 155, 241, "Proof text",ExpressionUUID->"57e0736e-f38e-5943-a57b-c09756ff43be"],
+Cell[12106, 350, 221, 5, 29, "Text",ExpressionUUID->"9aa270a4-2599-5540-983e-20a172189920"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12364, 360, 220, 4, 55, "Subsection",ExpressionUUID->"11fb56ae-87af-ff4b-9293-ec85df5130c4"],
+Cell[12587, 366, 71, 0, 29, "Text",ExpressionUUID->"d48cd34c-4e5c-a346-a46b-661344613bf4"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12707, 372, 165, 3, 67, "Section",ExpressionUUID->"3b6e4162-19eb-6a42-bea7-6041e2667c6e"],
+Cell[12875, 377, 192, 4, 29, "Text",ExpressionUUID->"dafbe257-0200-ef4f-bb4d-54bbe43b21f3"],
+Cell[13070, 383, 201, 4, 29, "Input",ExpressionUUID->"d90a9320-1a5e-d044-9efc-7631067104d2"],
+Cell[13274, 389, 331, 6, 29, "Input",ExpressionUUID->"db2d6839-0f7e-5b42-9d17-d2dc3254d946"]
 }, Open  ]]
 }, Open  ]]
 }

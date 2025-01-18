@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "View of All.md",
+                "file": "Takagi Functions/Takagi Function A Survey.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "View of All"
+              "title": "Takagi Function A Survey"
             }
           }
         ],
@@ -274,8 +274,8 @@
   },
   "active": "d1b583c3b4c81fa5",
   "lastOpenFiles": [
-    "Todo List.md",
     "View of All.md",
+    "Todo List.md",
     "Takagi Functions/Takagi Function A Survey.md",
     "文献综述.md",
     "Takagi Functions",

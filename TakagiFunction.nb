@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1060,         20]
-NotebookDataLength[     14872,        433]
-NotebookOptionsPosition[     13633,        399]
-NotebookOutlinePosition[     14384,        423]
-CellTagsIndexPosition[     14341,        420]
+NotebookDataLength[     19142,        544]
+NotebookOptionsPosition[     17740,        508]
+NotebookOutlinePosition[     18544,        533]
+CellTagsIndexPosition[     18501,        530]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,110 +46,100 @@ Cell["Notations", "Section",
   3.945934860092182*^9}},ExpressionUUID->"24766c3b-17e3-db44-b5c6-\
 55dfdb304cc5"],
 
-Cell[TextData[{
- "Binary expansion of x :  ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{"x", " ", "=", " ", 
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Binary", " ", "expansion", " ", "of", " ", 
+   RowBox[{"x", ":", 
+    FormBox[
+     RowBox[{"x", " ", "=", " ", 
+      RowBox[{
+       RowBox[{"0.", 
+        SubscriptBox["\[CurlyEpsilon]", "1"], 
+        SubscriptBox["\[CurlyEpsilon]", "2"], 
+        SubscriptBox["\[CurlyEpsilon]", "3"], 
+        SubscriptBox["\[Ellipsis]\[CurlyEpsilon]", "n"], "\[Ellipsis]"}], "=", 
+       RowBox[{
+        UnderoverscriptBox["\[Sum]", 
+         RowBox[{"n", "=", "1"}], "\[Infinity]"], 
+        FractionBox[
+         SubscriptBox["\[CurlyEpsilon]", "n"], 
+         SuperscriptBox["2", "n"]]}]}]}],
+     TraditionalForm]}]}], ",", 
+  RowBox[{
+   FormBox[
     RowBox[{
-     RowBox[{"0.", 
-      SubscriptBox["\[CurlyEpsilon]", "1"], 
-      SubscriptBox["\[CurlyEpsilon]", "2"], 
-      SubscriptBox["\[CurlyEpsilon]", "3"], 
-      SubscriptBox["\[Ellipsis]\[CurlyEpsilon]", "n"], "\[Ellipsis]"}], "=", 
+     SubscriptBox["\[CurlyEpsilon]", "n"], "\[Element]", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}]}],
+    TraditionalForm], ".", "\[IndentingNewLine]", "0"}], ",", 
+  RowBox[{"1", " ", 
+   RowBox[{"\:7684\:6570\:91cf", ":", 
+    FormBox[
      RowBox[{
-      UnderoverscriptBox["\[Sum]", 
-       RowBox[{"n", "=", "1"}], "\[Infinity]"], 
-      FractionBox[
-       SubscriptBox["\[CurlyEpsilon]", "n"], 
-       SuperscriptBox["2", "n"]]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "0b206d2c-6f8e-1541-9b69-3c7f8846fa92"],
- ", ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{
-    SubscriptBox["\[CurlyEpsilon]", "n"], "\[Element]", 
-    RowBox[{"{", 
-     RowBox[{"0", ",", "1"}], "}"}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "0b798866-cff5-e940-9cd1-c0ffc12e636c"],
- "\n0,1 \:7684\:6570\:91cf: ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{
-    SubscriptBox["I", "n"], "=", 
-    RowBox[{
-     UnderoverscriptBox["\[Sum]", 
-      RowBox[{"k", "=", "1"}], "n"], 
-     SubscriptBox["\[CurlyEpsilon]", "k"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "ad245427-6451-d94a-95eb-0854d48abdac"],
- ", ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{
-    SubscriptBox["O", "n"], "=", 
-    RowBox[{"n", "-", 
-     SubscriptBox["I", "n"]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "e709cd48-2f82-224a-9467-9c394aa513ed"],
- "\n0\:ff0c1\:7684\:7a20\:5bc6\:5ea6: ",
- Cell[BoxData[
-  FormBox[
-   RowBox[{
-    RowBox[{
-     SubscriptBox["d", "1"], "(", "x", ")"}], "=", 
-    RowBox[{
-     UnderscriptBox["\[Limit]", 
-      RowBox[{"n", "\[Rule]", "\[Infinity]"}]], 
-     RowBox[{
-      FractionBox["1", "n"], 
+      SubscriptBox["I", "n"], "=", 
       RowBox[{
        UnderoverscriptBox["\[Sum]", 
         RowBox[{"k", "=", "1"}], "n"], 
-       SubscriptBox["\[CurlyEpsilon]", "k"]}]}]}]}], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "d84bbcba-b184-9745-8fed-f24388c2b206"],
- "\:ff0c",
- Cell[BoxData[
-  FormBox[
-   RowBox[{
+       SubscriptBox["\[CurlyEpsilon]", "k"]}]}],
+     TraditionalForm]}]}], ",", 
+  RowBox[{
+   FormBox[
     RowBox[{
-     SubscriptBox["d", "0"], "(", "x", ")"}], "=", 
-    RowBox[{"1", "-", 
+     SubscriptBox["O", "n"], "=", 
+     RowBox[{"n", "-", 
+      SubscriptBox["I", "n"]}]}],
+    TraditionalForm], ".", "\[IndentingNewLine]", "0"}], "\:ff0c", 
+  RowBox[{"1", 
+   RowBox[{"\:7684\:7a20\:5bc6\:5ea6", ":", 
+    FormBox[
      RowBox[{
-      SubscriptBox["d", "1"], "(", "x", ")"}]}]}], TraditionalForm]],
-  ExpressionUUID->"1a396a78-c0b6-5546-9830-0c3ccfc73cbd"],
- " \n\:6b63\:4ea4\:6295\:5f71: ",
- Cell[BoxData[
-  FormBox[
-   SubscriptBox["\[Pi]", "X"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "74d7e3f6-548b-9345-8d0d-4d39bddfaeec"],
- ", ",
- Cell[BoxData[
-  FormBox[
-   SubscriptBox["\[Pi]", "Y"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
-  "7649716a-407a-5441-924a-801d15b05a42"],
- "\n\[Alpha]-\:7ef4Hausdorff\:6d4b\:5ea6\:ff1a",
- Cell[BoxData[
-  FormBox[
-   SuperscriptBox["\[ScriptCapitalH]", "\[Alpha]"], TraditionalForm]],
-  ExpressionUUID->"82a037c5-9e1a-0d4b-b7e0-4d7514a04c1b"],
- "\nA\:7684Hausdorff\:7ef4\:6570\:ff1a",
- Cell[BoxData[
-  FormBox[
-   SubscriptBox["dim", "H"], TraditionalForm]],ExpressionUUID->
-  "330b03cc-463e-cc40-a5cd-7effd5e59798"],
- "A\n\[ScriptF]\:56fe\:50cf\:7684Hausdorff\:7ef4\:6570\:ff1a",
- Cell[BoxData[
-  FormBox[
+      RowBox[{
+       SubscriptBox["d", "1"], "(", "x", ")"}], "=", 
+      RowBox[{
+       UnderscriptBox["\[Limit]", 
+        RowBox[{"n", "\[Rule]", "\[Infinity]"}]], 
+       RowBox[{
+        FractionBox["1", "n"], 
+        RowBox[{
+         UnderoverscriptBox["\[Sum]", 
+          RowBox[{"k", "=", "1"}], "n"], 
+         SubscriptBox["\[CurlyEpsilon]", "k"]}]}]}]}],
+     TraditionalForm]}]}], "\:ff0c", 
+  RowBox[{
+   FormBox[
+    RowBox[{
+     RowBox[{
+      SubscriptBox["d", "0"], "(", "x", ")"}], "=", 
+     RowBox[{"1", "-", 
+      RowBox[{
+       SubscriptBox["d", "1"], "(", "x", ")"}]}]}],
+    TraditionalForm], ".", "\[IndentingNewLine]", 
+   RowBox[{"\:6b63\:4ea4\:6295\:5f71", ":", 
+    FormBox[
+     SubscriptBox["\[Pi]", "X"],
+     TraditionalForm]}]}], ",", 
+  RowBox[{
    RowBox[{
-    SubscriptBox["dim", "H"], "(", "f", ")"}], TraditionalForm]],
-  ExpressionUUID->"4c2db4f7-bcb7-0243-9361-561d95422586"]
-}], "Text",
+    FormBox[
+     SubscriptBox["\[Pi]", "Y"],
+     TraditionalForm], ".", "\[IndentingNewLine]", "\[Alpha]"}], "-", 
+   "\:7ef4Hausdorff\:6d4b\:5ea6"}], "\:ff1a", 
+  RowBox[{
+   FormBox[
+    SuperscriptBox["\[ScriptCapitalH]", "\[Alpha]"],
+    TraditionalForm], "A\:7684Hausdorff\:7ef4\:6570"}], "\:ff1a", 
+  RowBox[{
+   FormBox[
+    SubscriptBox["dim", "H"],
+    TraditionalForm], 
+   RowBox[{
+   "A", ".", "\[IndentingNewLine]", 
+    "\[ScriptF]\:56fe\:50cf\:7684Hausdorff\:7ef4\:6570"}]}], "\:ff1a", 
+  RowBox[{
+   FormBox[
+    RowBox[{
+     SubscriptBox["dim", "H"], "(", "f", ")"}],
+    TraditionalForm], "."}]}]], "Text",
  CellChangeTimes->{{3.9459278229043007`*^9, 3.945927857111845*^9}, {
   3.9459278953281193`*^9, 3.945927926665699*^9}, {3.9459279980596313`*^9, 
   3.945928002573477*^9}, {3.945928046600111*^9, 3.9459280710097065`*^9}, {
@@ -158,7 +148,8 @@ Cell[TextData[{
   3.945928880195114*^9, 3.9459290099353695`*^9}, {3.9459345617670574`*^9, 
   3.9459345788367214`*^9}, {3.945934696209402*^9, 3.945934839322426*^9}, {
   3.945978730475979*^9, 3.9459789145902615`*^9}, {3.945978985720236*^9, 
-  3.945979315175783*^9}},ExpressionUUID->"0cfa5ddc-d914-034a-af4e-\
+  3.945979315175783*^9}, {3.946065378059849*^9, 
+  3.9460654288081207`*^9}},ExpressionUUID->"0cfa5ddc-d914-034a-af4e-\
 b17a1e48dca8"]
 }, Closed]],
 
@@ -178,160 +169,163 @@ Cell["Derivatives", "Subsection",
 8141e05714b0"],
 
 Cell[BoxData[
- RowBox[{"Theorem", " ", 
-  RowBox[{
-   RowBox[{"(", "Takagi", ")"}], ".", "The"}], " ", "Takagi", " ", "function",
-   " ", "T", " ", "does", " ", "not", " ", "possess", " ", "a", " ", "finite",
-   " ", "derivative", " ", "at", " ", "any", " ", 
-  RowBox[{"point", "."}]}]], "Theorem",
+ FormBox[
+  RowBox[{"Theorem", " ", 
+   RowBox[{
+    RowBox[{"(", "Takagi", ")"}], ".", "The"}], " ", "Takagi", " ", 
+   "function", " ", "T", " ", "does", " ", "not", " ", "possess", " ", "a", 
+   " ", "finite", " ", "derivative", " ", "at", " ", "any", " ", 
+   RowBox[{"point", "."}]}], TraditionalForm]], "Theorem",
  CellChangeTimes->{{3.945935035674616*^9, 3.945935044301098*^9}, {
-  3.945936079459553*^9, 3.945936092844002*^9}, {3.9459361379184055`*^9, 
-  3.945936179379099*^9}, {3.9459734490978184`*^9, 3.945973457321287*^9}, {
-  3.9459804963076344`*^9, 
-  3.94598050425655*^9}},ExpressionUUID->"c9c17837-f313-b24b-ac35-\
+   3.945936079459553*^9, 3.945936092844002*^9}, {3.9459361379184055`*^9, 
+   3.945936179379099*^9}, {3.9459734490978184`*^9, 3.945973457321287*^9}, {
+   3.9459804963076344`*^9, 3.94598050425655*^9}, {3.9460673916310024`*^9, 
+   3.946067398627798*^9}, 
+   3.946067556007435*^9},ExpressionUUID->"c9c17837-f313-b24b-ac35-\
 094024945f2c"],
 
 Cell[BoxData[
- RowBox[{
+ FormBox[
   RowBox[{
-   RowBox[{
-    RowBox[{"Proof", "(", "Billingsley", ")"}], ":", "\[IndentingNewLine]", 
-    RowBox[{"Put", 
-     RowBox[{
-      FormBox[
-       SubscriptBox["\[Phi]", "k"],
-       TraditionalForm], "(", "x", ")"}]}]}], "=", 
    RowBox[{
     RowBox[{
-     FormBox[
-      SuperscriptBox["2", 
-       RowBox[{"-", "k"}]],
-      TraditionalForm], "\[Phi]", 
-     RowBox[{"(", 
+     RowBox[{"Proof", "(", "Billingsley", ")"}], ":", "\[IndentingNewLine]", 
+     RowBox[{"Put", 
       RowBox[{
        FormBox[
-        SuperscriptBox["2", "k"],
-        TraditionalForm], "x"}], ")"}], "k"}], "=", "0"}]}], ",", "1", ",", 
-  RowBox[{"\[Ellipsis]", "Fix", "a", "point", "x"}], ",", 
-  RowBox[{
-   RowBox[{"for", "each", "n"}], "\[Element]", "\[DoubleStruckCapitalN]"}], 
-  ",", 
-  RowBox[{
-   RowBox[{"let", 
-    FormBox[
-     SubscriptBox["u", "n"],
-     TraditionalForm], "and", 
-    FormBox[
-     SubscriptBox["v", "n"],
-     TraditionalForm], "be", "the", "dyadic", "rationals", "of", "order", "n",
-     "with", 
-    FormBox[
+        SubscriptBox["\[Phi]", "k"],
+        TraditionalForm], "(", "x", ")"}]}]}], "=", 
+    RowBox[{
      RowBox[{
+      FormBox[
+       SuperscriptBox["2", 
+        RowBox[{"-", "k"}]],
+       TraditionalForm], "\[Phi]", 
+      RowBox[{"(", 
+       RowBox[{
+        FormBox[
+         SuperscriptBox["2", "k"],
+         TraditionalForm], "x"}], ")"}], "k"}], "=", "0"}]}], ",", "1", ",", 
+   RowBox[{"\[Ellipsis]", "Fix", "a", "point", "x"}], ",", 
+   RowBox[{
+    RowBox[{"for", "each", "n"}], "\[Element]", "\[DoubleStruckCapitalN]"}], 
+   ",", 
+   RowBox[{
+    RowBox[{"let", 
+     FormBox[
+      SubscriptBox["u", "n"],
+      TraditionalForm], "and", 
+     FormBox[
+      SubscriptBox["v", "n"],
+      TraditionalForm], "be", "the", "dyadic", "rationals", "of", "order", 
+     "n", "with", 
+     FormBox[
+      RowBox[{
+       RowBox[{
+        SubscriptBox["v", "n"], "-", 
+        SubscriptBox["u", "n"]}], "=", 
+       SuperscriptBox["2", 
+        RowBox[{"-", "n"}]]}],
+      TraditionalForm], "and", 
+     FormBox[
+      SubscriptBox["u", "n"],
+      TraditionalForm]}], "\[LessEqual]", "x", "<", 
+    RowBox[{
+     FormBox[
+      SubscriptBox["v", "n"],
+      TraditionalForm], ".", "\[IndentingNewLine]", "Then"}]}], ",", 
+   FormBox[
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       RowBox[{"T", "(", 
+        SubscriptBox["v", "n"], ")"}], "-", 
+       RowBox[{"T", "(", 
+        SubscriptBox["u", "n"], ")"}]}], 
       RowBox[{
        SubscriptBox["v", "n"], "-", 
-       SubscriptBox["u", "n"]}], "=", 
-      SuperscriptBox["2", 
-       RowBox[{"-", "n"}]]}],
-     TraditionalForm], "and", 
-    FormBox[
-     SubscriptBox["u", "n"],
-     TraditionalForm]}], "\[LessEqual]", "x", "<", 
+       SubscriptBox["u", "n"]}]], "=", 
+     RowBox[{
+      UnderoverscriptBox["\[Sum]", 
+       RowBox[{"k", "=", "0"}], 
+       RowBox[{"n", "-", "1"}]], 
+      FractionBox[
+       RowBox[{
+        RowBox[{
+         SubscriptBox["\[Phi]", "k"], "(", 
+         SubscriptBox["v", "n"], ")"}], "-", 
+        RowBox[{
+         SubscriptBox["\[Phi]", "k"], "(", 
+         SubscriptBox["u", "n"], ")"}]}], 
+       RowBox[{
+        SubscriptBox["v", "n"], "-", 
+        SubscriptBox["u", "n"]}]]}]}],
+    TraditionalForm], ",", "\[IndentingNewLine]", 
    RowBox[{
-    FormBox[
-     SubscriptBox["v", "n"],
-     TraditionalForm], ".", "\[IndentingNewLine]", "Then"}]}], ",", 
-  FormBox[
+    RowBox[{"since", " ", 
+     RowBox[{
+      SubscriptBox["\[Phi]", "k"], "(", 
+      SubscriptBox["u", "n"], ")"}]}], "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["\[Phi]", "k"], 
+      RowBox[{"(", 
+       SubscriptBox["v", "n"], ")"}]}], "=", 
+     RowBox[{
+      RowBox[{"0", "for", "all", "k"}], ">=", 
+      RowBox[{
+       RowBox[{"n", ".", "But"}], "for", "k"}], "<", "n"}]}]}], ",", 
+   RowBox[{
+    SubscriptBox["\[Phi]", "k"], "is", "linear", 
+    RowBox[{"on", "[", 
+     RowBox[{
+      SubscriptBox["u", "n"], ",", 
+      SubscriptBox["v", "n"]}], "]"}], "with", "slope", 
+    RowBox[{
+     SuperscriptBox[
+      SubscriptBox["\[Phi]", "k"], "+"], "(", "x", ")"}]}], ",", 
+   RowBox[{
+    RowBox[{"the", " ", "right"}], "-", 
+    RowBox[{"hand", " ", "derivative", " ", "of", " ", 
+     SubscriptBox["\[Phi]", "k"], " ", "at", " ", 
+     RowBox[{"x", ".", "\[IndentingNewLine]", "Thus"}]}]}], ",", " ", 
    RowBox[{
     FractionBox[
      RowBox[{
-      RowBox[{"T", "(", 
-       SubscriptBox["v", "n"], ")"}], "-", 
-      RowBox[{"T", "(", 
-       SubscriptBox["u", "n"], ")"}]}], 
+      RowBox[{"T", 
+       RowBox[{"(", 
+        SubscriptBox["v", "n"], ")"}]}], "-", 
+      RowBox[{"T", 
+       RowBox[{"(", 
+        SubscriptBox["u", "n"], ")"}]}]}], 
      RowBox[{
       SubscriptBox["v", "n"], "-", 
       SubscriptBox["u", "n"]}]], "=", 
     RowBox[{
-     UnderoverscriptBox["\[Sum]", 
-      RowBox[{"k", "=", "0"}], 
-      RowBox[{"n", "-", "1"}]], 
-     FractionBox[
-      RowBox[{
-       RowBox[{
-        SubscriptBox["\[Phi]", "k"], "(", 
-        SubscriptBox["v", "n"], ")"}], "-", 
-       RowBox[{
-        SubscriptBox["\[Phi]", "k"], "(", 
-        SubscriptBox["u", "n"], ")"}]}], 
-      RowBox[{
-       SubscriptBox["v", "n"], "-", 
-       SubscriptBox["u", "n"]}]]}]}],
-   TraditionalForm], ",", "\[IndentingNewLine]", 
-  RowBox[{
-   RowBox[{
-    SubscriptBox["since\[Phi]", "k"], 
-    RowBox[{"(", 
-     SubscriptBox["u", "n"], ")"}]}], "=", 
-   RowBox[{
-    RowBox[{
-     SubscriptBox["\[Phi]", "k"], 
-     RowBox[{"(", 
-      SubscriptBox["v", "n"], ")"}]}], "=", 
-    RowBox[{
-     RowBox[{"0", "for", "all", "k"}], ">=", 
      RowBox[{
-      RowBox[{"n", ".", "But"}], "for", "k"}], "<", "n"}]}]}], ",", 
-  RowBox[{
-   SubscriptBox["\[Phi]", "k"], "is", "linear", 
-   RowBox[{"on", "[", 
-    RowBox[{
-     SubscriptBox["u", "n"], ",", 
-     SubscriptBox["v", "n"]}], "]"}], "with", "slope", 
-   SuperscriptBox[
-    SubscriptBox["\[Phi]", "k"], "+"], 
-   RowBox[{"(", "x", ")"}]}], ",", 
-  RowBox[{
-   RowBox[{"the", "right"}], "-", 
-   RowBox[{"hand", " ", "derivative", " ", "of", " ", 
+      UnderoverscriptBox["\[Sum]", 
+       RowBox[{"k", "=", "0"}], 
+       RowBox[{"n", "-", "1"}]], 
+      RowBox[{
+       SuperscriptBox[
+        SubscriptBox["\[Phi]", "k"], "+"], 
+       RowBox[{
+        RowBox[{"(", "x", ")"}], ".", "\[IndentingNewLine]", "Since"}], " ", 
+       SuperscriptBox[
+        SubscriptBox["\[Phi]", "k"], "+"], 
+       RowBox[{"(", "x", ")"}]}]}], "=", 
+     RowBox[{
+      RowBox[{"\[PlusMinus]", "1"}], " ", "for", " ", "each", " ", "k"}]}]}], 
+   ",", " ", 
+   RowBox[{
+   "this", " ", "last", " ", "sum", " ", "cannot", " ", "converge", " ", "to",
+     " ", "a", " ", "finite", " ", 
+    RowBox[{"limit", ".", "\[IndentingNewLine]", "Hence"}]}], ",", " ", 
+   RowBox[{
+   "T", " ", "does", " ", "not", " ", "have", " ", "a", " ", "finite", " ", 
+    "derivative", " ", "of", " ", 
     SubscriptBox["\[Phi]", "k"], " ", "at", " ", 
-    RowBox[{"x", ".", "\[IndentingNewLine]", "Thus"}]}]}], ",", " ", 
-  RowBox[{
-   FractionBox[
-    RowBox[{
-     RowBox[{"T", 
-      RowBox[{"(", 
-       SubscriptBox["v", "n"], ")"}]}], "-", 
-     RowBox[{"T", 
-      RowBox[{"(", 
-       SubscriptBox["u", "n"], ")"}]}]}], 
-    RowBox[{
-     SubscriptBox["v", "n"], "-", 
-     SubscriptBox["u", "n"]}]], "=", 
-   RowBox[{
-    RowBox[{
-     UnderoverscriptBox["\[Sum]", 
-      RowBox[{"k", "=", "0"}], 
-      RowBox[{"n", "-", "1"}]], 
-     RowBox[{
-      SuperscriptBox[
-       SubscriptBox["\[Phi]", "k"], "+"], 
-      RowBox[{
-       RowBox[{"(", "x", ")"}], ".", "\[IndentingNewLine]", "Since"}], " ", 
-      SuperscriptBox[
-       SubscriptBox["\[Phi]", "k"], "+"], 
-      RowBox[{"(", "x", ")"}]}]}], "=", 
-    RowBox[{
-     RowBox[{"\[PlusMinus]", "1"}], " ", "for", " ", "each", " ", "k"}]}]}], 
-  ",", " ", 
-  RowBox[{
-  "this", " ", "last", " ", "sum", " ", "cannot", " ", "converge", " ", "to", 
-   " ", "a", " ", "finite", " ", 
-   RowBox[{"limit", ".", "\[IndentingNewLine]", "Hence"}]}], ",", " ", 
-  RowBox[{
-  "T", " ", "does", " ", "not", " ", "have", " ", "a", " ", "finite", " ", 
-   "derivative", " ", "of", " ", 
-   SubscriptBox["\[Phi]", "k"], " ", "at", " ", 
-   RowBox[{"x", "."}]}]}]], "Proof text",
+    RowBox[{"x", "."}]}]}], TraditionalForm]], "Proof text",
  CellChangeTimes->{
   3.783708729377879*^9, {3.9459735318170395`*^9, 3.9459735852614784`*^9}, {
    3.9459737087742424`*^9, 3.945973768249407*^9}, {3.945977761008869*^9, 
@@ -344,16 +338,131 @@ Cell[BoxData[
    3.9459803943179073`*^9}, {3.9460008398388786`*^9, 
    3.9460009143138123`*^9}, {3.9460009515166416`*^9, 3.946000998266762*^9}, {
    3.9460010641380177`*^9, 3.9460013252290764`*^9}, {3.946003650782675*^9, 
-   3.946003825210327*^9}, {3.946015812902727*^9, 
-   3.946015826369175*^9}},ExpressionUUID->"57e0736e-f38e-5943-a57b-\
+   3.946003825210327*^9}, {3.946015812902727*^9, 3.946015826369175*^9}, {
+   3.9460650874734764`*^9, 3.946065094994404*^9}, 3.9460653116216354`*^9, {
+   3.946067562181904*^9, 3.9460675751400433`*^9}, {3.946067609686695*^9, 
+   3.946067619644781*^9}},ExpressionUUID->"57e0736e-f38e-5943-a57b-\
 c09756ff43be"],
 
-Cell["", "Text",
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SubscriptBox["D", "n"], 
+     RowBox[{"(", "x", ")"}]}], "=", 
+    FractionBox[
+     RowBox[{
+      RowBox[{
+       RowBox[{"T", 
+        RowBox[{"(", 
+         SubscriptBox["v", "n"]}]}], "\:ff09"}], "-", 
+      RowBox[{"T", 
+       RowBox[{"(", 
+        SubscriptBox["u", "n"], ")"}]}]}], 
+     RowBox[{
+      SubscriptBox["v", "n"], "-", 
+      SubscriptBox["u", "n"]}]]}], ",", " ", 
+   RowBox[{
+    RowBox[{
+    "if", " ", "there", " ", "exists", " ", "limit", " ", "of", " ", "the", 
+     " ", "right"}], "-", "side"}], ",", 
+   RowBox[{"this", " ", "is", " ", "called", " ", "the", " ", 
+    StyleBox["dyadic",
+     FontColor->RGBColor[1., 0., 0.]], 
+    StyleBox[" ",
+     FontColor->RGBColor[1., 0., 0.]], 
+    StyleBox["derivative",
+     FontColor->RGBColor[1., 0., 0.]], " ", "of", " ", "T", " ", "at", " ", 
+    "x"}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"if", " ", 
+     SubscriptBox["D", "n"], 
+     RowBox[{"(", "x", ")"}]}], "->", 
+    RowBox[{"+", "\[Infinity]"}]}], ",", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"T", "'"}], 
+     RowBox[{"(", "x", ")"}]}], "->", 
+    RowBox[{"+", "\[Infinity]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"if", " ", 
+     SubscriptBox["D", "n"], 
+     RowBox[{"(", "x", ")"}]}], "->", 
+    RowBox[{"-", "\[Infinity]"}]}], ",", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"T", "'"}], 
+     RowBox[{"(", "x", ")"}]}], "->", 
+    RowBox[{"-", 
+     RowBox[{"\[Infinity]", "."}]}]}]}], TraditionalForm]], "Text",
  CellChangeTimes->{
   3.77804649934914*^9, {3.778046538917068*^9, 3.7780465420692883`*^9}, {
-   3.946014642287237*^9, 
-   3.9460146449810295`*^9}},ExpressionUUID->"9aa270a4-2599-5540-983e-\
-20a172189920"]
+   3.946014642287237*^9, 3.9460146449810295`*^9}, {3.946060934955612*^9, 
+   3.946060934955612*^9}, {3.9460647622367496`*^9, 3.9460647796077614`*^9}, {
+   3.9460653157748623`*^9, 3.9460653519246902`*^9}, {3.9460654478328247`*^9, 
+   3.946065604244728*^9}, {3.9460657781524944`*^9, 3.946065801013113*^9}, 
+   3.9460658342595043`*^9, 3.9460662109933434`*^9, {3.946066255208288*^9, 
+   3.946066295346758*^9}, {3.9460666672166405`*^9, 3.9460666919927387`*^9}, 
+   3.946067204813219*^9, 3.946067284110285*^9, 
+   3.9460675852742405`*^9},ExpressionUUID->"9aa270a4-2599-5540-983e-\
+20a172189920"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"Theorem", " ", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"Allaart", " ", "and", 
+         StyleBox["Kawamura",
+          IgnoreSpellCheck->True]}], ",", "Kr\[UDoubleDot]ppel"}], ")"}], ".",
+       " ", "Let"}], " ", "x"}], "\[Element]", 
+    RowBox[{
+     TemplateBox[<|"boxes" -> FormBox[
+         RowBox[{"(", 
+           RowBox[{"0", ",", "1"}], ")"}], TraditionalForm], "errors" -> {}, 
+       "input" -> "(0,1)", "state" -> "Boxes"|>,
+      "TeXAssistantTemplate"], "be", " ", "nondyadic"}]}], ",", 
+   RowBox[{"and", " ", "write"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"x", "=", 
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"n", "=", "1"}], "\[Infinity]"], 
+     SuperscriptBox["2", 
+      RowBox[{"-", 
+       SubscriptBox["a", "n"]}]]}]}], ",", 
+   RowBox[{
+    RowBox[{"where", " ", 
+     RowBox[{"{", 
+      SubscriptBox["a", "n"], "}"}], " ", "is", " ", "a", " ", "strictly", 
+     " ", "increasing", " ", "sequence", " ", "of", " ", "positive", " ", 
+     RowBox[{"integers", ".", "\[IndentingNewLine]", "Then"}], " ", 
+     RowBox[{"T", "'"}], 
+     RowBox[{"(", "x", ")"}]}], "=", 
+    RowBox[{
+     RowBox[{"\[Infinity]", " ", "\[DoubleLeftRightArrow]", 
+      RowBox[{
+       SubscriptBox["a", 
+        RowBox[{"n", "+", "1"}]], "-", 
+       RowBox[{"2", 
+        SubscriptBox["a", "n"]}], "+", 
+       RowBox[{"2", "n"}], "-", 
+       RowBox[{
+        SubscriptBox["log", "2"], "(", 
+        RowBox[{
+         SubscriptBox["a", 
+          RowBox[{"n", "+", "1"}]], "-", 
+         SubscriptBox["a", "n"]}], ")"}]}]}], "->", 
+     RowBox[{"-", 
+      RowBox[{"\[Infinity]", "."}]}]}]}]}], TraditionalForm]], "Theorem",
+ CellChangeTimes->{
+  3.783708738804233*^9, {3.946067291573263*^9, 3.9460675439160023`*^9}, {
+   3.9460676421542263`*^9, 3.9460677571531677`*^9}, {3.946068267788166*^9, 
+   3.9460682718928604`*^9}},ExpressionUUID->"e458e102-d752-9247-80a3-\
+9505e19b8453"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -381,7 +490,7 @@ Cell["", "Text",
   3.945980069086178*^9}},ExpressionUUID->"dafbe257-0200-ef4f-bb4d-\
 54bbe43b21f3"],
 
-Cell[BoxData[""], "Input",
+Cell[BoxData[""], "DisplayFormula",
  CellChangeTimes->{
   3.77804649934914*^9, {3.778046538917068*^9, 3.7780465420692883`*^9}, 
    3.945980056757248*^9},ExpressionUUID->"d90a9320-1a5e-d044-9efc-\
@@ -397,8 +506,9 @@ d2dc3254d946"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{622.5, 735},
-WindowMargins->{{Automatic, -5.25}, {Automatic, 0}},
+WindowSize->{1440, 741.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+SpellingDictionaries->{"CorrectWords"->{"Allaart"}},
 Magnification:>1. Inherited,
 FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (2024\:5e747\:670816\
 \:65e5)",
@@ -426,26 +536,27 @@ Cell[CellGroupData[{
 Cell[1482, 35, 161, 3, 95, "Title",ExpressionUUID->"f80cf6e3-0c4d-4c4d-89fb-2e5ca954c4c4"],
 Cell[CellGroupData[{
 Cell[1668, 42, 207, 4, 67, "Section",ExpressionUUID->"24766c3b-17e3-db44-b5c6-55dfdb304cc5"],
-Cell[1878, 48, 4004, 113, 172, "Text",ExpressionUUID->"0cfa5ddc-d914-034a-af4e-b17a1e48dca8"]
+Cell[1878, 48, 3611, 104, 196, "Text",ExpressionUUID->"0cfa5ddc-d914-034a-af4e-b17a1e48dca8"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[5919, 166, 211, 4, 53, "Section",ExpressionUUID->"dc590bc2-91d1-504a-b754-31d05f3adc79"],
+Cell[5526, 157, 211, 4, 53, "Section",ExpressionUUID->"dc590bc2-91d1-504a-b754-31d05f3adc79"],
 Cell[CellGroupData[{
-Cell[6155, 174, 163, 3, 55, "Subsection",ExpressionUUID->"fe04d0d3-81fe-ca41-8789-8141e05714b0"],
-Cell[6321, 179, 623, 12, 72, "Theorem",ExpressionUUID->"c9c17837-f313-b24b-ac35-094024945f2c"],
-Cell[6947, 193, 5156, 155, 241, "Proof text",ExpressionUUID->"57e0736e-f38e-5943-a57b-c09756ff43be"],
-Cell[12106, 350, 221, 5, 29, "Text",ExpressionUUID->"9aa270a4-2599-5540-983e-20a172189920"]
+Cell[5762, 165, 163, 3, 55, "Subsection",ExpressionUUID->"fe04d0d3-81fe-ca41-8789-8141e05714b0"],
+Cell[5928, 170, 735, 14, 47, "Theorem",ExpressionUUID->"c9c17837-f313-b24b-ac35-094024945f2c"],
+Cell[6666, 186, 5515, 158, 206, "Proof text",ExpressionUUID->"57e0736e-f38e-5943-a57b-c09756ff43be"],
+Cell[12184, 346, 2242, 62, 83, "Text",ExpressionUUID->"9aa270a4-2599-5540-983e-20a172189920"],
+Cell[14429, 410, 1996, 54, 125, "Theorem",ExpressionUUID->"e458e102-d752-9247-80a3-9505e19b8453"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12364, 360, 220, 4, 55, "Subsection",ExpressionUUID->"11fb56ae-87af-ff4b-9293-ec85df5130c4"],
-Cell[12587, 366, 71, 0, 29, "Text",ExpressionUUID->"d48cd34c-4e5c-a346-a46b-661344613bf4"]
+Cell[16462, 469, 220, 4, 55, "Subsection",ExpressionUUID->"11fb56ae-87af-ff4b-9293-ec85df5130c4"],
+Cell[16685, 475, 71, 0, 29, "Text",ExpressionUUID->"d48cd34c-4e5c-a346-a46b-661344613bf4"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12707, 372, 165, 3, 67, "Section",ExpressionUUID->"3b6e4162-19eb-6a42-bea7-6041e2667c6e"],
-Cell[12875, 377, 192, 4, 29, "Text",ExpressionUUID->"dafbe257-0200-ef4f-bb4d-54bbe43b21f3"],
-Cell[13070, 383, 201, 4, 29, "Input",ExpressionUUID->"d90a9320-1a5e-d044-9efc-7631067104d2"],
-Cell[13274, 389, 331, 6, 29, "Input",ExpressionUUID->"db2d6839-0f7e-5b42-9d17-d2dc3254d946"]
+Cell[16805, 481, 165, 3, 67, "Section",ExpressionUUID->"3b6e4162-19eb-6a42-bea7-6041e2667c6e"],
+Cell[16973, 486, 192, 4, 29, "Text",ExpressionUUID->"dafbe257-0200-ef4f-bb4d-54bbe43b21f3"],
+Cell[17168, 492, 210, 4, 24, "DisplayFormula",ExpressionUUID->"d90a9320-1a5e-d044-9efc-7631067104d2"],
+Cell[17381, 498, 331, 6, 29, "Input",ExpressionUUID->"db2d6839-0f7e-5b42-9d17-d2dc3254d946"]
 }, Open  ]]
 }, Open  ]]
 }

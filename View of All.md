@@ -12,4 +12,3 @@ Where
 	file.name != "View of All" and
 	type = "Takagi Function"
 ```
-aa

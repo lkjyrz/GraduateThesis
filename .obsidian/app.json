@@ -1,1 +1,7 @@
-{}
+{
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "showIndentGuide": true,
+  "vimMode": true
+}

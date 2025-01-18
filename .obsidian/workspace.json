@@ -11,10 +11,24 @@
             "id": "421bd517b2215721",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "开题报告.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "开题报告"
+            }
+          },
+          {
+            "id": "93aafc63849e4f66",
+            "type": "leaf",
+            "state": {
+              "type": "planner-release-notes",
               "state": {},
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Day Planner Release 0.27.0"
             }
           }
         ]
@@ -89,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "开题报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "开题报告 的反向链接列表"
             }
           },
           {
@@ -107,11 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "开题报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "开题报告 的出链列表"
             }
           },
           {
@@ -128,21 +144,53 @@
             }
           },
           {
-            "id": "c66ba33503e5cb02",
+            "id": "8e3e60ad3963828b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "5f915fed22e02dd3",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "8cb33253bf5eba69",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "adec307815d2580f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "开题报告.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "开题报告 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,9 +199,15 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
     }
   },
   "active": "421bd517b2215721",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "文献综述.md",
+    "开题报告.md"
+  ]
 }

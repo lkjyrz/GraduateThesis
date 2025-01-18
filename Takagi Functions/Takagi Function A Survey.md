@@ -15,7 +15,10 @@ type: Takagi Function
 >[!tip] Takagi
 >The Takagi function T does not possess a finite derivative at any point.
 
-`\begin{proof}` (Billingsley) Put $\phi_{k}(x)$
+`\begin{proof}` (Billingsley) Put $\phi_{k}(x)=2^{-k}\phi(2^{k}x)$ for $k=0,1,\cdots$. Fix a point $x$ , for each $n\in \mathbb{N}$, let $\mu_n$ and $\nu_n$ be the dyadic rationals of order $n$ with $\nu_n-\mu_n=2^{-n}$ and $\mu_{n}\le x<\nu_n$. Then,
+$$
+\frac{T(\nu_n)-T(\mu_n)}{\nu_n-\mu_{n}}=\sum\limits_{k=0}^{n-1}\frac{\phi_k(\nu_n)-\phi_k(\mu_n)}{\nu_n-\mu_n}
+$$
 
 
 ## 连续性

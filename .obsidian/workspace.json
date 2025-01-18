@@ -245,10 +245,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todo List.md"
+                "file": "View of All.md"
               },
               "icon": "lucide-list",
-              "title": "Todo List 的大纲"
+              "title": "View of All 的大纲"
             }
           }
         ],
@@ -272,12 +272,12 @@
       "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "421bd517b2215721",
+  "active": "d1b583c3b4c81fa5",
   "lastOpenFiles": [
+    "Todo List.md",
     "View of All.md",
     "Takagi Functions/Takagi Function A Survey.md",
     "文献综述.md",
-    "Todo List.md",
     "Takagi Functions",
     "README.md",
     "开题报告.md"

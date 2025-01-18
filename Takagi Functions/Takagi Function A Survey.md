@@ -13,9 +13,9 @@ type: Takagi Function
 # 分析性质
 ## 导数
 >[!tip] Takagi
->Takagi
+>The Takagi function T does not possess a finite derivative at any point.
 
-> [!proposition] A
-> 
+`\begin{proof}` (Billingsley) Put $\phi_{k}(x)$
+
 
 ## 连续性

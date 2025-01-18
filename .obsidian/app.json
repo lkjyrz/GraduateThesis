@@ -3,5 +3,6 @@
   "strictLineBreaks": true,
   "showLineNumber": true,
   "showIndentGuide": true,
-  "vimMode": true
+  "vimMode": true,
+  "propertiesInDocument": "source"
 }

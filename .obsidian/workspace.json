@@ -32,7 +32,7 @@
           {
             "id": "49313ef89f053cb6",
             "type": "tabs",
-            "dimension": 54.16666666666667,
+            "dimension": 54.16666666666666,
             "children": [
               {
                 "id": "421bd517b2215721",
@@ -53,7 +53,7 @@
           {
             "id": "c2da904353e56915",
             "type": "tabs",
-            "dimension": 45.833333333333336,
+            "dimension": 45.83333333333334,
             "children": [
               {
                 "id": "88c5f750168c0ba6",
@@ -232,6 +232,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -246,8 +247,8 @@
   "active": "a69f37dfd0020af8",
   "lastOpenFiles": [
     "View of All.md",
-    "Todo List.md",
     "Takagi Functions/Takagi Function A Survey.md",
+    "Todo List.md",
     "文献综述.md",
     "Takagi Functions",
     "README.md",

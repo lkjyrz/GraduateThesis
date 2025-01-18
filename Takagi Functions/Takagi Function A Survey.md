@@ -12,5 +12,10 @@ type: Takagi Function
 - $f$ 图像的Hausdorff维数: $\mathrm{dim}_H(f)$
 # 分析性质
 ## 导数
+>[!tip] Takagi
+>Takagi
+
+> [!proposition] A
+> 
 
 ## 连续性

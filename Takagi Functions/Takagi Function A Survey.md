@@ -1,7 +1,6 @@
 ---
 Finish: False
-types: TakagiFunction
-Chapter: 0
+type: Takagi Function
 ---
 
 # Notations

@@ -13,13 +13,21 @@ type: Takagi Function
 # 分析性质
 ## 导数
 >[!tip] Takagi
->The Takagi function T does not possess a finite derivative at any point.
+>The Takagi function $T$ does not possess a finite derivative at any point.
 
  >[!note] (Billingsley) 
  >Put $\phi_{k}(x)=2^{-k}\phi(2^{k}x)$ for $k=0,1,\cdots$. Fix a point $x$ , for each $n\in \mathbb{N}$, let $\mu_n$ and $\nu_n$ be the dyadic rationals of order $n$ with $\nu_n-\mu_n=2^{-n}$ and $\mu_{n}\le x<\nu_n$. Then,
 >$$
-\frac{T(\nu_n)-T(\mu_n)}{\nu_n-\mu_{n}}=\sum\limits_{k=0}^{n-1}\frac{\phi_k(\nu_n)-\phi_k(\mu_n)}{\nu_n-\mu_n}
+\frac{T(\nu_n)-T(\mu_n)}{\nu_n-\mu_{n}}=\sum\limits_{k=0}^{n-1}\frac{\phi_k(\nu_n)-\phi_k(\mu_n)}{\nu_n-\mu_n},
 >$$ 
+>since $\phi_k(\mu_n)=\phi_k(\nu_n)=0$ for all $k\ge n$.
+>But for $k<n$, $\phi_k$ is linear on $[\mu_n,\nu_n]$ with slope $\phi^+_k(x)$, the right-hand derivative of $\phi_k$ at $x$. Thus,
+>$$
+>\frac{T(\nu_n)-T(\mu_n)}{\nu_{n}-\mu_{n}}=\sum\limits_{k=0}^{n-1}\phi_k^+(x).
+>$$
+>Since $\phi_k^+(x)=\pm1$ for each $k$, this last sum cannot converge to a finite limit.
+>Hence, $T$ does not have a finite derivative at $x$.
+
 
 
 ## 连续性

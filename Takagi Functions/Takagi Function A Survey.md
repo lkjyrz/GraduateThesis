@@ -28,6 +28,6 @@ type: Takagi Function
 >Since $\phi_k^+(x)=\pm1$ for each $k$, this last sum cannot converge to a finite limit.
 >Hence, $T$ does not have a finite derivative at $x$.
 
-
-
 ## 连续性
+
+ 
